@@ -1,0 +1,81 @@
+      body {
+    background-color: rgb(236, 11, 11);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 230px;
+    margin: 18px auto;
+    background-color: #554d42;
+    border-radius: 5px;
+}
+
+#fireCanvas, h3, p, a {
+    margin: 8px;
+    text-align: center;
+    color: white;
+}
+
+button, input, footer {
+    margin: 5px auto;
+}
+
+table {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    color: white;
+    width: 32px;
+    height: 32px;
+    font-size: 5px;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    font-weight: bold;
+}
+
+td.pixel {
+    width: 7px;
+    height: 7px;
+    border: 0;
+}
+
+.pixel-Index {
+    font-size: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #999;
+}
+
+
+
+div.controls {
+    border: 1px solid whitesmoke;
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: auto;
+}
+
+
+.container__botao{
+    text-align: center;
+    color:rgb(236, 11, 11);
+    font-size: 5px;
+
+}
